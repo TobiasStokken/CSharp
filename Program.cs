@@ -23,7 +23,7 @@ if (valg == "1")
 } else if (valg == "2") {
     Quiz();
 }
-
+/* avslutt program */
 else{
     Environment.Exit(1);
 }
@@ -50,8 +50,8 @@ Console.WriteLine(@"
 string svar = Console.ReadLine();
 
 
-if (svar == "1"){
     /* Finner navnet ditt å alder */
+if (svar == "1"){
 Console.Clear();
 Console.WriteLine("Hva heter du?");
 string navn = Console.ReadLine();
@@ -73,8 +73,8 @@ Console.WriteLine("Trykk enter for å fortsette...");
 Console.ReadLine();
 RandomTingDuKansjeLurerPå();
 
-} else if (svar == "2"){
     /* Finner ut hvor lenge til det er Jul */
+} else if (svar == "2"){
     Console.Clear();
     DateTime jul = new DateTime(DateTime.Now.Year, 12, 24);
     TimeSpan diff = (jul - DateTime.Now);
@@ -82,7 +82,10 @@ RandomTingDuKansjeLurerPå();
     Console.WriteLine("Trykk enter for å fortsette...");
     Console.ReadLine();
     RandomTingDuKansjeLurerPå();
-} else if (svar == "3"){
+} 
+
+/* Teller ned fra 10 for å skremme deg */
+else if (svar == "3"){
 int tid = 10;
 while (tid != 0){
     Console.BackgroundColor = ConsoleColor.DarkRed;
