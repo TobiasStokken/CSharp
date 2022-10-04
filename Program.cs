@@ -1,8 +1,7 @@
 ﻿/* Her er en fancy start side som spør om du vil fortsette eller avslutte */
 static void start(){
-
+    
 Console.WriteLine(@"
-
 ░██████╗████████╗░█████╗░██████╗░████████╗
 ██╔════╝╚══██╔══╝██╔══██╗██╔══██╗╚══██╔══╝
 ╚█████╗░░░░██║░░░███████║██████╔╝░░░██║░░░
@@ -15,37 +14,40 @@ Console.WriteLine(@"
 
 ");
 
+
+
 /* leser svar å bestemmer hva som skal skje */
 string valg = Console.ReadLine();
 if (valg == "1")
 {
+    Console.Clear();
     RandomTingDuKansjeLurerPå();
 } else if (valg == "2") {
+    Console.Clear();
     Quiz();
 }
 /* avslutt program */
 else{
+    Console.Clear();
     Environment.Exit(1);
 }
 }
 
-/* Ja eg vet det er et dårli navn men her kan du finne ut av random ting du lurer på */
-static void RandomTingDuKansjeLurerPå()
-{
 
+
+
+/* Ja eg vet det er et dårli navn men her kan du finne ut av random ting du lurer på, det er så lite program så tenker det går fint med litt dårli navn */
+static void RandomTingDuKansjeLurerPå(){
 
 /* Fin meny om hva du vil vite */
 Console.WriteLine(@"
-
 █░█ █░█ ▄▀█   █░█ █ █░░   █▀▄ █░█   █░█ █ ▀█▀ █▀▀
 █▀█ ▀▄▀ █▀█   ▀▄▀ █ █▄▄   █▄▀ █▄█   ▀▄▀ █ ░█░ ██▄
 
         [1] Hvor gammel om X år
         [2] Hvor lenge til Jul
-        [3] Når dør du?
+        [3] Nedtelling
         [4] Tilbake
-
-
 ");
 string svar = Console.ReadLine();
 
@@ -71,6 +73,7 @@ Console.Clear();
 Console.WriteLine("Du er " + alderOmXÅr + " år om " + xÅr + " år.");
 Console.WriteLine("Trykk enter for å fortsette...");
 Console.ReadLine();
+Console.Clear();
 RandomTingDuKansjeLurerPå();
 
     /* Finner ut hvor lenge til det er Jul */
@@ -81,30 +84,45 @@ RandomTingDuKansjeLurerPå();
     Console.WriteLine(diff.Days + " Dager til Jul.");
     Console.WriteLine("Trykk enter for å fortsette...");
     Console.ReadLine();
+    Console.Clear();
     RandomTingDuKansjeLurerPå();
 } 
 
 /* Teller ned fra 10 for å skremme deg */
 else if (svar == "3"){
-int tid = 10;
+Console.Clear();
+Console.WriteLine("Hvor mange sekunder nedtelling hvil du ha?");
+string tidString = Console.ReadLine();
+int tid = Int32.Parse(tidString);
+Console.Clear();
 while (tid != 0){
-    Console.BackgroundColor = ConsoleColor.DarkRed;
-    Console.WriteLine("Du dør om " + tid);
+    Console.WriteLine("Tid igjen: " + tid + " sekunder.");
     Thread.Sleep(1000);
     tid--;
 }
-Console.ResetColor(); 
+
+Console.Clear();
+
+Console.Beep();
+
+Console.WriteLine("Nedtelling på " + tid + " sekunder er ferdig!");
+
 
 } else{
+    /* tømmer skjermen og starter startskjermen */
+    Console.Clear();
     start();
 }
 
 }
 
+
+
 /* Her er Quizen */
 static void Quiz(){
     Console.WriteLine("Jobbes fortsatt med...");
     Console.ReadLine();
+    Console.Clear();
     start();
 }
 
