@@ -14,8 +14,6 @@ static void start(){
 
     ");
 
-
-
     /* leser svar å bestemmer hva som skal skje */
     string valg = Console.ReadLine();
     if (valg == "1")
