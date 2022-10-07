@@ -11,7 +11,6 @@ static void start(){
         [1] Random ting du kansje lurer på
         [2] Quiz
         [3] Exit
-
     ");
 
     /* leser svar å bestemmer hva som skal skje */
@@ -160,7 +159,7 @@ static void Quiz(){
         } else{
             feilSvar();
         }
-
+        Console.Clear();
         Console.WriteLine(@"
 
 ██╗░░██╗██╗░░░██╗░█████╗░  ███████╗██████╗░  ███████╗███╗░░██╗
@@ -188,6 +187,7 @@ static void Quiz(){
     }
 
 
+    Console.Clear();
 
     Console.WriteLine(@"
 
@@ -284,7 +284,7 @@ static void rettSvar(){
 ██║░░██║███████╗░░░██║░░░░░░██║░░░  ██████╔╝░░╚██╔╝░░██║░░██║██║░░██║
 ╚═╝░░╚═╝╚══════╝░░░╚═╝░░░░░░╚═╝░░░  ╚═════╝░░░░╚═╝░░░╚═╝░░╚═╝╚═╝░░╚═╝
     ");
-Thread.Sleep(2500);
+Thread.Sleep(1000);
 Console.ResetColor();
 }
 
