@@ -1,6 +1,6 @@
 ﻿/* Her er en fancy start side som spør om du vil fortsette eller avslutte */
 static void start(){
-        Console.Clear();
+    Console.Clear();
     Console.WriteLine(@"
     ░██████╗████████╗░█████╗░██████╗░████████╗
     ██╔════╝╚══██╔══╝██╔══██╗██╔══██╗╚══██╔══╝
@@ -12,6 +12,7 @@ static void start(){
         [2] Quiz
         [3] Exit
     ");
+    
 
     /* leser svar å bestemmer hva som skal skje */
     string valg = Console.ReadLine();
