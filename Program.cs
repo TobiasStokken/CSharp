@@ -11,7 +11,7 @@ static void start(){
         [1] Random ting du kansje lurer på
         [2] Quiz
         [3] Exit
-Test
+
     ");
 
     /* leser svar å bestemmer hva som skal skje */
