@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "csharp-testing/1.0.0": {
+      "klokke/1.0.0": {
         "runtime": {
-          "csharp-testing.dll": {}
+          "klokke.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "csharp-testing/1.0.0": {
+    "klokke/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

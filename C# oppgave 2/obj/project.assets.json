@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\TobiasStokken\\source\\repo\\CSharp\\C# oppgave 2 klokke\\csharp-testing.csproj",
-      "projectName": "csharp-testing",
-      "projectPath": "C:\\Users\\TobiasStokken\\source\\repo\\CSharp\\C# oppgave 2 klokke\\csharp-testing.csproj",
+      "projectUniqueName": "C:\\Users\\TobiasStokken\\source\\repo\\CSharp\\C# oppgave 2\\klokke.csproj",
+      "projectName": "klokke",
+      "projectPath": "C:\\Users\\TobiasStokken\\source\\repo\\CSharp\\C# oppgave 2\\klokke.csproj",
       "packagesPath": "C:\\Users\\TobiasStokken\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\TobiasStokken\\source\\repo\\CSharp\\C# oppgave 2 klokke\\obj\\",
+      "outputPath": "C:\\Users\\TobiasStokken\\source\\repo\\CSharp\\C# oppgave 2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\TobiasStokken\\AppData\\Roaming\\NuGet\\NuGet.Config"

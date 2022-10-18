@@ -18,8 +18,6 @@ klokke.setTime(5);
 
 while (true) {
     klokke.tikk();
-    Console.Clear();
-    Console.SetWindowSize(30,30);
     Console.WriteLine(klokke.ToString());
     Thread.Sleep(1000);
 }

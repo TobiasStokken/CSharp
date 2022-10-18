@@ -1,0 +1,30 @@
+C:\Users\TobiasStokken\source\repo\CSharp\klokke\bin\Debug\net6.0\klokke.exe
+C:\Users\TobiasStokken\source\repo\CSharp\klokke\bin\Debug\net6.0\klokke.deps.json
+C:\Users\TobiasStokken\source\repo\CSharp\klokke\bin\Debug\net6.0\klokke.runtimeconfig.json
+C:\Users\TobiasStokken\source\repo\CSharp\klokke\bin\Debug\net6.0\klokke.dll
+C:\Users\TobiasStokken\source\repo\CSharp\klokke\bin\Debug\net6.0\klokke.pdb
+C:\Users\TobiasStokken\source\repo\CSharp\klokke\obj\Debug\net6.0\klokke.csproj.AssemblyReference.cache
+C:\Users\TobiasStokken\source\repo\CSharp\klokke\obj\Debug\net6.0\klokke.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TobiasStokken\source\repo\CSharp\klokke\obj\Debug\net6.0\klokke.AssemblyInfoInputs.cache
+C:\Users\TobiasStokken\source\repo\CSharp\klokke\obj\Debug\net6.0\klokke.AssemblyInfo.cs
+C:\Users\TobiasStokken\source\repo\CSharp\klokke\obj\Debug\net6.0\klokke.csproj.CoreCompileInputs.cache
+C:\Users\TobiasStokken\source\repo\CSharp\klokke\obj\Debug\net6.0\klokke.dll
+C:\Users\TobiasStokken\source\repo\CSharp\klokke\obj\Debug\net6.0\refint\klokke.dll
+C:\Users\TobiasStokken\source\repo\CSharp\klokke\obj\Debug\net6.0\klokke.pdb
+C:\Users\TobiasStokken\source\repo\CSharp\klokke\obj\Debug\net6.0\klokke.genruntimeconfig.cache
+C:\Users\TobiasStokken\source\repo\CSharp\klokke\obj\Debug\net6.0\ref\klokke.dll
+C:\Users\TobiasStokken\source\repo\CSharp\C# oppgave 2\bin\Debug\net6.0\klokke.exe
+C:\Users\TobiasStokken\source\repo\CSharp\C# oppgave 2\bin\Debug\net6.0\klokke.deps.json
+C:\Users\TobiasStokken\source\repo\CSharp\C# oppgave 2\bin\Debug\net6.0\klokke.runtimeconfig.json
+C:\Users\TobiasStokken\source\repo\CSharp\C# oppgave 2\bin\Debug\net6.0\klokke.dll
+C:\Users\TobiasStokken\source\repo\CSharp\C# oppgave 2\bin\Debug\net6.0\klokke.pdb
+C:\Users\TobiasStokken\source\repo\CSharp\C# oppgave 2\obj\Debug\net6.0\klokke.csproj.AssemblyReference.cache
+C:\Users\TobiasStokken\source\repo\CSharp\C# oppgave 2\obj\Debug\net6.0\klokke.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TobiasStokken\source\repo\CSharp\C# oppgave 2\obj\Debug\net6.0\klokke.AssemblyInfoInputs.cache
+C:\Users\TobiasStokken\source\repo\CSharp\C# oppgave 2\obj\Debug\net6.0\klokke.AssemblyInfo.cs
+C:\Users\TobiasStokken\source\repo\CSharp\C# oppgave 2\obj\Debug\net6.0\klokke.csproj.CoreCompileInputs.cache
+C:\Users\TobiasStokken\source\repo\CSharp\C# oppgave 2\obj\Debug\net6.0\klokke.dll
+C:\Users\TobiasStokken\source\repo\CSharp\C# oppgave 2\obj\Debug\net6.0\refint\klokke.dll
+C:\Users\TobiasStokken\source\repo\CSharp\C# oppgave 2\obj\Debug\net6.0\klokke.pdb
+C:\Users\TobiasStokken\source\repo\CSharp\C# oppgave 2\obj\Debug\net6.0\klokke.genruntimeconfig.cache
+C:\Users\TobiasStokken\source\repo\CSharp\C# oppgave 2\obj\Debug\net6.0\ref\klokke.dll

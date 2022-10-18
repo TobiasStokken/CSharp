@@ -6,5 +6,5 @@ build_property.ProjectTypeGuids =
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
-build_property.RootNamespace = csharp_testing
-build_property.ProjectDir = C:\Users\TobiasStokken\source\repo\CSharp\C# oppgave 2 klokke\
+build_property.RootNamespace = klokke
+build_property.ProjectDir = C:\Users\TobiasStokken\source\repo\CSharp\C# oppgave 2\
