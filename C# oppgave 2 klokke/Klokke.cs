@@ -13,25 +13,25 @@
 
         public Klokke(int klSekund, int  klMinutt, int  klTime)
         {
-            sekund = klSekund;
-            minutt = klMinutt;
-            time = klTime;
+            setSekund(klSekund);
+            setMinutt(klMinutt);
+            setTime(klTime);
         }
 
         public void setSekund(int nySekund)
         {
-            if (nySekund > 0 || nySekund < 60)
+            if (nySekund > 60 || nySekund < 0)
             {
                 throw new Exception("Dette er ikke en gyldig verdi for sekund.");
             }
-            sekund = 0;
+            sekund = nySekund;
         }
 
         public int getSekund() => sekund;
 
         public void leggTilSekunder(int antallSekund)
         {
-            sekund += 1;
+            sekund += antallSekund;
             while (sekund > 59)
             {
                 sekund = 0;
@@ -41,18 +41,18 @@
 
         public void setMinutt(int nyMinutt)
         {
-            if (minutt > 0 || minutt > 60)
+            if (nyMinutt > 60 || nyMinutt < 0)
             {
                 throw new Exception("Dette er ikke en gyldig verdi for minutt.");
             }
-            minutt = 0;
+            minutt = nyMinutt;
         }
 
         public int getMinutt() => minutt;
 
         public void leggTilMinutter(int antallMinutter)
         {
-            minutt += 1;
+            minutt += antallMinutter;
             while (minutt > 59)
             {
                 minutt = 0;
@@ -62,11 +62,11 @@
 
         public void setTime(int nyTime)
         {
-            if (time > 23)
+            if (nyTime > 23 || nyTime < 0)
             {
-                Console.WriteLine("Dette er ikke en gyldig verdi for time.");
+                throw new Exception("Dette er ikke en gyldig verdi for time.");
             }
-            ;
+            time = nyTime;
         }
 
         public int getTime() => time;
