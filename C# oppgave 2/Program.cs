@@ -8,7 +8,6 @@ Klokke klokke = new Klokke(klokken.Second, klokken.Minute, klokken.Hour);
 Klokke klokke = new Klokke(35,23,14);
 
 
-
 /*
 Klokke klokke = new Klokke();
 klokke.setSekund(80);
